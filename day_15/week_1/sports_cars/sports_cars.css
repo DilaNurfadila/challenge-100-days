@@ -1,0 +1,21 @@
+body {
+  background-color: darkolivegreen;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  text-decoration: none;
+}
+
+#list {
+  background-color: #3d910c;
+  width: max-content;
+}

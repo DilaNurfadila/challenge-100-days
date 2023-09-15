@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Radial Gradient</title>
+    <style>
+      div {
+        width: 600px;
+        height: 300px;
+        margin: 50px auto;
+        /* background-image: radial-gradient(red, green); */
+        /* background-image: radial-gradient(circle, red, green); */
+        /* background-image: radial-gradient(circle closest-side, red, green); */
+        /* background-image: radial-gradient(circle farthest-corner, red, green); */
+        background-image: radial-gradient(
+          circle farthest-side at top left,
+          red,
+          green
+        );
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

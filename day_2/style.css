@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-box {
+  width: 450px;
+  height: 600px;
+  background-color: blueviolet;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  /* transform: rotate(45deg); */
+  animation: animate2 5s 2 linear alternate;
+  /* transform: rotate(360deg); */
+  /* position: relative; */
+  border-radius: 50px;
+}
+
+/* .main-box:hover .box {
+  transform: translateX(-200%);
+} */
+
+@keyframes animate {
+  0% {
+    transform: translateX(0);
+  }
+
+  5% {
+    background-color: green;
+  }
+
+  10% {
+    background-color: blue;
+  }
+
+  15% {
+    background-color: red;
+  }
+
+  20% {
+    background-color: green;
+  }
+
+  25% {
+    background-color: blue;
+    transform: translateY(250px);
+  }
+
+  30% {
+    background-color: red;
+  }
+
+  35% {
+    background-color: green;
+  }
+
+  40% {
+    background-color: blue;
+  }
+
+  45% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: green;
+    transform: translateX(500px);
+  }
+
+  55% {
+    background-color: blue;
+  }
+
+  60% {
+    background-color: red;
+  }
+
+  65% {
+    background-color: green;
+  }
+
+  70% {
+    background-color: blue;
+  }
+
+  75% {
+    background-color: red;
+    transform: translateY(250px);
+  }
+
+  80% {
+    background-color: green;
+  }
+
+  85% {
+    background-color: blue;
+  }
+
+  90% {
+    background-color: red;
+  }
+
+  95% {
+    background-color: green;
+  }
+
+  100% {
+    background-color: blue;
+    transform: translateX(500px);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    background-color: red;
+    /* top: 0;
+    left: 0; */
+  }
+
+  10% {
+    background-color: green;
+    /* top: 0;
+    left: 1000px; */
+    transform: translate(250px, 0);
+  }
+
+  20% {
+    background-color: blue;
+    transform: translate(250px, 250px);
+    /* top: 250px;
+    left: 1000px; */
+  }
+
+  30% {
+    background-color: red;
+    transform: translate(0, 250px);
+    /* left: 0;
+    top: 250px; */
+  }
+
+  40% {
+    background-color: green;
+    transform: translate(0, 400px);
+    /* top: 500px;
+    left: 0; */
+  }
+
+  50% {
+    background-color: blue;
+    transform: translate(250px, 400px);
+    /* top: 500px;
+    left: 1000px; */
+  }
+
+  60% {
+    background-color: red;
+    transform: translate(0, 400px);
+  }
+
+  70% {
+    background-color: green;
+    transform: translate(0, 250px);
+  }
+
+  80% {
+    background-color: blue;
+    transform: translate(250px, 250px);
+  }
+
+  90% {
+    background-color: red;
+    transform: translate(250px, 0);
+  }
+
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
